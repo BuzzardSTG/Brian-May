@@ -81,6 +81,9 @@ nav img {
     width: 100%;
 
 }
+#typing{
+color: aqua;
+}
 
 .text-box{
     width: 90%;
@@ -403,7 +406,7 @@ nav .fa-solid{
   
 .band-col {
     flex: auto;
-    margin-right: 15px;
+    margin: 5px 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
     transition: 0.3s;
     width: 60%;
@@ -411,8 +414,11 @@ nav .fa-solid{
     position: relative;
     text-align: left;
     padding: 10px;
-    
   }
+.band-col:hover{
+    background: #fff;
+    
+}
 
 
 .band-col img{
