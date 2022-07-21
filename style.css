@@ -540,6 +540,10 @@ nav .fa-solid{
     flex-basis: 48%;
     margin-bottom: 30px;
 }
+#rad{
+    border-radius: 5px;
+    resize: vertical;
+}
 
 .contact-col div{
     display: flex;
