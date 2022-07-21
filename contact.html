@@ -1,134 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brian May Fan Club</title>
-    
-    <script src="https://kit.fontawesome.com/6f3812b0bd.js" crossorigin="anonymous"></script>
+
+    <script
+      src="https://kit.fontawesome.com/6f3812b0bd.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!--Main Stylesheet-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    
-</head>
+  <!--Contact Us Page-->
 
-<!--Contact Us Page-->
+  <body>
+    <section class="sub-header-contact">
+      <nav>
+        <a href="index.html"><img src="brian_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="biography.html">BIOGRAPHY</a></li>
+            <li><a href="the band.html">THE BAND</a></li>
+            <li><a href="mv.html">VIDEO & MUSIC</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>CONTACT US</h1>
+    </section>
 
-<body>
-<section class="sub-header-contact">
-         <nav>
-             <a href="index.html"><img src="brian_img/logo.png"></a>
-             <div class="nav-links" id="navLinks">
-                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="biography.html">BIOGRAPHY</a></li>
-                    <li><a href="the band.html">THE BAND</a></li>
-                    <li><a href="mv.html">VIDEO & MUSIC</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-             </div>
-             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-         </nav>
-        <h1>CONTACT US</h1>
-</section>
+    <!--Contact Us Content-->
 
-<!--Contact Us Content-->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.0418279107566!2d135.77711341595085!3d35.03068348035106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001085a40096db1%3A0x8c895182522ac6d1!2sThe%20Kyoto%20College%20of%20Graduate%20Studies%20for%20Informatics!5e0!3m2!1sen!2sjp!4v1658310961025!5m2!1sen!2sjp"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
 
-<section class="location">
-     
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.0418279107566!2d135.77711341595085!3d35.03068348035106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001085a40096db1%3A0x8c895182522ac6d1!2sThe%20Kyoto%20College%20of%20Graduate%20Studies%20for%20Informatics!5e0!3m2!1sen!2sjp!4v1658310961025!5m2!1sen!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-</section>
-
-<section class="contact-us">
-
-    <div class="row">
+    <section class="contact-us">
+      <div class="row">
         <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-envelopes-bulk"></i>
+            <span>
+              <h5>The Kyoto College of Graduate Studies for Informatics</h5>
+              <p>7 Tanaka Monzencho, Sakyo Ward, Kyoto, 606-8225</p>
+            </span>
+          </div>
 
-            <div>
-                <i class="fa-solid fa-envelopes-bulk"></i>
-                <span>
-                    <h5>The Kyoto College of Graduate Studies for Informatics</h5>
-                    <p>7 Tanaka Monzencho, Sakyo Ward, Kyoto, 606-8225</p>
-                </span>
-            </div>
+          <div>
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>
+              <h5>+81 757110161</h5>
+              <p>Monday to Friday, 10AM to 5PM</p>
+            </span>
+          </div>
 
-            <div>
-                <i class="fa-solid fa-phone-volume"></i>
-                <span>
-                    <h5>+81 757110161</h5>
-                    <p>Monday to Friday, 10AM to 5PM</p>
-                </span>
-            </div>
-
-            <div>
-                <i class="fa-solid fa-at"></i>
-                <span>
-                    <h5>brian_fc@outlook.com</h5>
-                    <p>Please email us if you have any enquries.</p>
-                </span>
-            </div>
+          <div>
+            <i class="fa-solid fa-at"></i>
+            <span>
+              <h5>brian_fc@outlook.com</h5>
+              <p>Please email us if you have any enquries.</p>
+            </span>
+          </div>
         </div>
         <div class="contact-col">
-            <form action="">
-                <input type="text" placeholder="Enter Your Name" required>
-                <input type="email" placeholder="Enter Email Address" required>
-                <input type="text" placeholder="Enter Your Subject" required>
-                <textarea rows="8" placeholder="Message" required></textarea>
-                <button type="submit" class="hero-btn red-btn">Send Message</button>
-
-            </form>
+          <form action="">
+            <input type="text" placeholder="Enter Your Name" required />
+            <input type="email" placeholder="Enter Email Address" required />
+            <input type="text" placeholder="Enter Your Subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
         </div>
-             
-        
-    </div>
-</section>
+      </div>
+    </section>
 
+    <!--Footer-->
 
+    <section class="footer">
+      <h4>BRIAN MAY SOCIAL MEDIA ACCOUNTS</h4>
+      <p>
+        Feel free to click to the icon below to follow Brian May on social
+        media.
+      </p>
 
-
-
-
-   
-
-   
-    
-
-
-   
-    
-
-   <!--Footer-->
-
-   <section class="footer"> 
-    <h4>BRIAN MAY SOCIAL MEDIA ACCOUNTS</h4>
-    <p>Feel free to click to the icon below to follow Brian May on social media.</p>
-
-    <div class="icons">
-
-       <a href="https://www.facebook.com/BrianMayCom" i class="fa-brands fa-facebook-square" target="_blank"></a>
-       <a href="https://twitter.com/DrBrianMay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" i class="fa-brands fa-twitter-square" target="_blank"></a>
-       <a href="https://www.instagram.com/brianmayforreal/?hl=en" i class="fa-brands fa-instagram-square" target="_blank"></a>
-       
-   </div>
-   <p>WEB PROGRAMMING FINAL PROJECT BY GROUP 8</p>
-</section>
-
-    
+      <div class="icons">
+        <a
+          href="https://www.facebook.com/BrianMayCom"
+          i
+          class="fa-brands fa-facebook-square"
+          target="_blank"
+        ></a>
+        <a
+          href="https://twitter.com/DrBrianMay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          i
+          class="fa-brands fa-twitter-square"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.instagram.com/brianmayforreal/?hl=en"
+          i
+          class="fa-brands fa-instagram-square"
+          target="_blank"
+        ></a>
+      </div>
+      <p>WEB PROGRAMMING FINAL PROJECT BY GROUP 8</p>
+    </section>
 
     <!--JavaScrpt for Toggle Menu-->
-    <script>
-         var navlinks = document.getElementById("navLinks");
-         function showMenu(){
-            navLinks.style.right = "0";
-         }
-
-         function hideMenu(){
-            navLinks.style.right = "-200px";
-         }
-    </script>
-</body>
-</html>    
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
